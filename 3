@@ -1,0 +1,23 @@
+#include<iostream>
+using namespace std;
+class student
+{
+public:
+	int a, b, sum;
+	void add(int a, int b)
+	{
+		sum = a + b;		
+	}
+	/* void display()
+	{
+		cout << "Sum: " << sum << endl;
+	}*/
+};
+int main()
+{
+	student obj;
+	obj.add(5, 6);
+	//obj.display();
+	cout << "Sum: " << obj.sum << endl;
+	return 0;
+};
